@@ -175,7 +175,7 @@ dts<- mun %>% left_join(base2)
 View(dts)
 
 # cargar capa de puntos estados 
-puntos<-read_sf("estados.puntos.shp")
+puntos<-st_read("estados.puntos.shp")
 
 
 class(puntos)
